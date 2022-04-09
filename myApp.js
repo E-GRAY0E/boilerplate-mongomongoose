@@ -1,5 +1,7 @@
 require('dotenv').config();
+let mongoose = require('mongoose');
 
+mongoose.connect(MONGO_URI);
 
 let Person;
 
